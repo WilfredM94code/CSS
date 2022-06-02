@@ -1,0 +1,711 @@
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+-----------------------------------------------------------------
+
+File: /resources/1-simple_css.css, /resources/1-simple_css.html
+
+CSS stands for Cascading Style Sheets and is a language from graphic 
+design used to define and create styles in a structured markup 
+language. It's a language focused in website-design.
+
+Css files are those using the '.css' format and such file is 
+(or shloud be) linked to an HTML file.
+
+Ther are 3 ways of applying style to a HTML file
+
+- Inline CSS # Bad practice: Define the style of a line declaring 
+the style attribute of the tag
+- Internal CSS # Used in small ammount of code: Define the style 
+tag content within the head tag
+- External CSS # Best practice: Create a '.css' file and declaring
+the tag <link rel="" href=""/> within the '.css' file
+
+There's a model used for HTML element within the CSS language that is 
+called the Box-model. It determines 4 main characteristics of a an HTML
+element and such properties can be setted and specified within and CSS
+file
+
+From:
+https://www.w3schools.com/css/css_boxmodel.asp
+
+- Content: The content of the box, where text and images appear
+- Padding: Clears an area around the content. The padding is transparent
+- Border: A border that goes around the padding and content
+- Margin: Clears an area outside the border. The margin is transparent
+
+The box model allows us to add a border around elements, and to define 
+space between elements. 
+
+When declaring a style there has to be considered an aspect called 
+specificity which is the criteria used to override every style employing 
+a hierarchy.
+
+From:
+https://www.w3schools.com/css/css_specificity.asp
+
+There are four categories which define the specificity level of a selector:
+
+Inline styles - Example: <h1 style="color: pink;">
+IDs - Example: #navbar
+Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+Elements and pseudo-elements - Example: h1, :before
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+----------------------------- Syntax ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/2-css_syntax.css, /resources/2-css_syntax.html
+
+As any other language CSS consists in a particular syntax that can
+be used to define, create and declare styles for web elements.
+
+In a CSS file a comment can be created using '/* */' and write 
+anything within the asterix. These comments will be ignored by the 
+systems but will help any developer to leave comments within the 
+lines of code
+
+CSS rule is the way a style is declared in CSS. It consist in a 
+'selector' a its 'declaration book'.
+
+The selector recieves a way to idetigy an element. This can be an HTML
+semantic tag, an element id, class or another content identificator
+
+The declaration book consists in an set of '{}' containing the attributes
+specifications of the element to provide a particular style. Different 
+attributes are separated by ';' and often every style attribute
+has dedicated one line exclusively. Every declaration within this block
+consists in a keyword asociated with a value and the value itself 
+including the unit in which such value is declared if its necessary
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+----------------------------- Colors ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/3-colors.css, /resources/3-colors.html
+
+THere are several standars used to provide color within a CSS file:
+
+- Hexadecimal color value: A hexadecimal color is specified with: #RRGGBB.
+RR (red), GG (green) and BB (blue) are hexadecimal integers between 00 and FF specifying the intensity of the color.
+For example, #0000FF is displayed as blue, because the blue component is set to its highest value (FF) and the others are set to 00.
+
+- HSL color value: HSL stands for hue, saturation, and lightness.
+HSL color values are specified with: hsl(hue, saturation, lightness).
+Hue: Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+Saturation: Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.
+Lightness: Lightness is also a percentage; 0% is black, 100% is white.
+
+- Color name: CSS/HTML supports 140 standard color names available here:
+https://www.w3schools.com/colors/colors_names.asp
+
+- RGB color value: An RGB color value is specified with: rgb(red, green, blue).
+Each parameter (red, green, and blue) defines the intensity of the color as an integer between 0 and 255.
+For example, rgb(0, 0, 255) is rendered as blue, because the blue parameter is set to its highest value (255) and the others are set to 0.
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------ Simple Selector ------------------------
+-----------------------------------------------------------------
+
+File: /resources/4-simple_selectors.css, /resources/4-simple_selectors.html
+
+Everytime is required to apply an style to an HTML file it's required to 
+provide a way to select the element meant to hace an style applied.
+These selectors are:
+
+- Element name selector: Uses the name of a tag to select all the elements
+with that tag
+ID selector: Uses the ID to select a particular element
+Class selector: Uses the class to select all class elements
+Universal selector: Selects every element within the HTML file
+Grouping selector: Allows to apply a style to several elements providing
+several selectors at once
+
+Note: There are several values associated with website styles that are
+set by default by the web browser
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+-------------------------- Backgrounds --------------------------
+-----------------------------------------------------------------
+
+File: /resources/5-backgrouds.css, /resources/5-backgrouds.html
+
+The background in a element meant to provide an useful contrast to 
+a content to guarantee the legibility, the aesthetic and the 
+confort of the user.
+
+This characteristic is applied selectig the corresponding selector
+and providing the particular value.
+
+THese can be a single color, an image with a position associated, a 
+repeated background, scaled, not scaled and displayed only once.
+
+There are also several other properties associated to a background
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Borders ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/6-borders.css, /resources/6-borders.html
+
+Borders are an element of the CSS box model. Such part of an HTML element 
+have several properties that can be setted to provide an styled visual.
+The border is the limit of an element and the content is sorounded by it.
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Margins ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/7-margins.css, /resources/7-margins.html
+
+Margins are an element of the CSS box model. Such part of an HTML element 
+have several properties that can be setted to provide an styled visual.
+The margin is the space around an element and sorround the border of it.
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Padding ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/8-padding.css, /resources/8-padding.html
+
+Padding are an element of the CSS box model. Such part of an HTML element 
+have several properties that can be setted to provide an styled visual.
+The padding is the possition the content has between it's border
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------ Height & Width -------------------------
+-----------------------------------------------------------------
+
+File: /resources/9-height_width.css, /resources/9-height_width.html
+
+Height and width are properties of the content of the CSS box model. 
+Such part of an HTML element have several properties that can be setted
+to provide an styled visual.
+The Height and width are the magnitudes of the two dimmentions that Uses
+the content of an element. Height stands for the Y mgnitude and the width
+istands for the X magnitude that the element occupies.
+
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+--------------------------- Box model ---------------------------
+-----------------------------------------------------------------
+
+File: /resources/10-box_model.css, /resources/10-box_model.html
+
+There's a model used for HTML element within the CSS language that is 
+called the Box-model. It determines 4 main characteristics of a an HTML
+element and such properties can be setted and specified within and CSS
+file
+
+From:
+https://www.w3schools.com/css/css_boxmodel.asp
+
+- Content: The content of the box, where text and images appear
+- Padding: Clears an area around the content. The padding is transparent
+- Border: A border that goes around the padding and content
+- Margin: Clears an area outside the border. The margin is transparent
+
+The box model allows us to add a border around elements, and to define 
+space between elements. 
+
+Whenever creating an CSS element theres's a property called Box Sizing
+and is used to consider the elements included within the size (width and
+height of an element)
+
+From:
+https://www.w3schools.com/css/css3_box-sizing.asp
+
+Without the CSS box-sizing Property
+By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element =! width
+height + padding + border = actual height of an element != height
+
+With the CSS box-sizing Property
+The box-sizing: border-box; property allows us to include the padding 
+and border in an element's total width and height.
+
+width + padding + border = actual width of an element  = width
+height + padding + border = actual height of an element = height
+
+In other words, the box-sizing allows to include the padding and borders
+in the width and height dimmentions of and element. If ignored, by default,
+it will consider only, as weight an width, the dimmentions of the content.
+
+It is considered a good practice to specify the box-sizing: border-box;
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------ Text properties ------------------------
+-----------------------------------------------------------------
+
+File: /resources/11-text_properties.css, /resources/11-text_properties.html
+
+Teere are several text porperties that can be setted within a CSS file.
+Some of these are:
+
+- Color
+- Upper and lower case
+- Aling
+- Letter spacing
+- Word spacing
+- Text shadow (consits into a distance, radius and blur)
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------ Font properties ------------------------
+-----------------------------------------------------------------
+
+File: /resources/12-font_properties.css, /resources/12-font_properties.html
+
+Teere are several font porperties that can be setted within a CSS file.
+Some of these are:
+
+- Font familiy: It provides a set of fonts to the element
+- Style: Sets one style to the font such as italic, normal
+- Weight: Implies the boldness of a font
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+----------------------------- Links -----------------------------
+-----------------------------------------------------------------
+
+File: /resources/13-links.css, /resources/13-links.html
+
+There is a way (among many other) to provide a particular style to the
+links within the CSS file
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------- Combinator selectors ---------------------
+-----------------------------------------------------------------
+
+File: /resources/14-combinator_selectors.css, /resources/14-combinator_selectors.html
+
+A combinator is something that explains the relationship between the 
+elements.
+
+From:
+https://www.w3schools.com/css/css_combinators.asp
+
+A CSS selector can contain more than one simple selector. Between the 
+simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+- Descendant selector (space): The descendant selector matches all elements
+that are descendants of a specified element.
+- Child selector (>): The child selector selects all elements that are the 
+children of a specified element.
+- Adjacent sibling selector (+): The adjacent sibling selector is used to 
+select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means 
+"immediately following".
+- General sibling selector (~): The general sibling selector selects all 
+elements that are next siblings of a specified element.
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+--------------------- Pseudo Class Selectors --------------------
+-----------------------------------------------------------------
+
+File: /resources/15-pseudo_class_selectors.css, /resources/15-pseudo_class_selectors.html
+
+These selectors are used to select particular elements considering a parent
+child relation between two selectors and providing an extra indicator of
+what's the particular element wanted.
+
+These selectors consist in a structure as shown next
+parent-element child-element:pseudoclass {}
+
+A pseudo-class is used to define a special state of an element.
+
+These are a few of all the pseudo classes availables for CSS:
+
+- first-child: Considers the 1st child element within the father 
+element
+- nth-child(n): Considers the nth child element within the father 
+element
+- last-child: Considers the last child element within the father 
+element
+- first-of-type: Considers the 1st child element within the father 
+element that corresponds to a tag type
+- last-of-type: Considers the last child element within the father 
+element that corresponds to a tag type
+- nth-of-type(n): Considers the nth child element within the father 
+element that corresponds to a tag type
+
+An extense list of pseudo classes can be found in the link below:
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+If not provided a child element CSS can interact with every 
+element that fits the pseudo class
+
+Any HTML element can have several classes, for example
+
+<p class = 'paragraph main-paragraph'></p>
+
+The two classes of the previous example are 'paragraph' and 
+'main-paragraph'. Several classes are separated by a space. Whenever a 
+particular class of an element is selected it will select every element with
+such class
+
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Opacity ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/16-opacity.css, /resources/16-opacity.html
+
+Is the visual property that defines an element's transparency
+In CSS ranges from 0 being a completely transparent element and 1 being
+having a solid opacity
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------- Attribute Selectors ----------------------
+-----------------------------------------------------------------
+
+File: /resources/17-attribute_selectors.css, /resources/17-attribute_selectors.html
+
+Attribute selection is a functionallity provided by CSS that allows to
+select HTML elements based on the values of the attributes of an element.
+
+Whenever an element will be selected using an attribute there can be 
+declared the key and value between '[]'. It can be also preceeded by the
+tag name as shown in the next two examples:
+
+img [srg='img-1.jpg'] {}
+[srg='img-2.jpg'] {}
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+-------------------------- Specificity --------------------------
+-----------------------------------------------------------------
+
+File: /resources/18-specificity.css, /resources/18-specificity.html
+
+When declaring a style there has to be considered an aspect called 
+specificity which is the criteria used to override every style employing 
+a hierarchy.
+
+From:
+https://www.w3schools.com/css/css_specificity.asp
+
+There are four categories which define the specificity level of a selector:
+
+Inline styles - Example: <h1 style="color: pink;">
+IDs - Example: #navbar
+Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+Elements and pseudo-elements - Example: h1, :before
+
+Specificity will provide to the browser (under a criteria) the style that 
+will apply if there's a contradiction in the specified properties of an 
+style of an element.
+
+Whenever working with simple selectors this rules will apply
+
+- Inline specificity can't be overrided
+- ID specificity can only be overrided by inline specificity
+- Class specificity can be overrided by ID and inline specificity being in 
+ascending order
+- Element specificity can be overrided by class, ID and inline specificity 
+being in ascending order
+
+In case two or more styles are specified with the same specificity level
+the executed value will be the last declared, meaning that each new element
+overrides every previous element, lasting (redundancy) the last.
+
+When working with attributes, pseudo class and combinator selectors there 
+will be applied
+
+From:
+https://www.w3schools.com/css/css_specificity.asp
+
+Selector	Specificity Value	Calculation
+p	        1	                1
+p.test	    11	                1 + 10
+p#demo	    101	                1 + 100
+<p style="color: pink;">    1000 1000
+#demo	    100	                100
+.test	    10	                10
+p.test1.test2	21	            1 + 10 + 10
+#navbar p#demo	201	            100 + 1 + 100
+*	0	0 (the universal selector is ignored)
+
+The specificty rule provides several values for different selectors:
+
+- Element = 1
+- Class: = 10
+- ID = 100
+- Inline = 1000
+
+Every reference to each selector whenever are combinated will provide a
+contribution to the specifity value of such declaration which can override
+any other from a 'simple selector' hierarchy.
+
+
+From:
+https://www.w3schools.com/css/css_specificity.asp
+
+There is one exception to this rule: if you use the !important rule, 
+it will even override inline styles!
+
+This compound specification of an element has to be given without placing
+black spaces (' ') between any selector to avoid including a parent child
+combinator selector.
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------- Border radius -------------------------
+-----------------------------------------------------------------
+
+File: /resources/19-border_radius.css, /resources/19-border_radius.html
+
+Border radius is a property oc CSS boxes that allows to round the corners
+of a CSS box
+
+This property has 4 componentes, and whenever is setted it has the next 
+order:
+
+- Top left corner
+- Top right corner
+- Bottom right corner
+- Bottom left corner
+
+For instance:
+b{
+    border: 10px 20px 30px 40px;
+}
+
+If only given one value CSS will use that value as every border radius of 
+the element. Every other value given will work as a new component following 
+the previous order
+
+It can also be setted specifiying every property by separated:
+For instance:
+b {
+border-top-left-radius: 10px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 40px;
+border-bottom-left-radius: 50px;
+}
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+--------------------------- Box shadow --------------------------
+-----------------------------------------------------------------
+
+File: /resources/20-box_radius.css, /resources/20-box_radius.html
+
+Box shadow is a property that allows to create a shadow-like figure
+for a CSS box 
+
+It has properties that can be setted such as: 
+
+From:
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+- none	Default value. No shadow is displayed	
+- h-offset	Required. The horizontal offset of the shadow. A positive 
+value puts the shadow on the right side of the box, a negative value 
+puts the shadow on the left side of the box	
+- v-offset	Required. The vertical offset of the shadow. A positive value 
+puts the shadow below the box, a negative value puts the shadow above the 
+box	
+- blur	Optional. The blur radius. The higher the number, the more blurred 
+the shadow will be	
+- spread	Optional. The spread radius. A positive value increases the 
+size of the shadow, a negative value decreases the size of the shadow	
+- color	Optional. The color of the shadow. The default value is the text 
+color.
+Note: In Safari (on PC) the color parameter is required. If you do not 
+specify the color, the shadow is not displayed at all.	
+- inset	Optional. Changes the shadow from an outer shadow (outset) to an 
+inner shadow	
+- initial	Sets this property to its default value.
+- inherit	Inherits this property from its parent element.
+
+Note that in an element several shadows can be placed having each set of 
+properties separated by a comma ','. These are placed in layers being the 
+top layer the fisrt one and every other shadow overlaped by the previous
+shadow
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Gradient ---------------------------
+-----------------------------------------------------------------
+
+File: /resources/21-gradient.css, /resources/21-gradient.html
+
+Gradient is a property of CSS that allows a transition from a color 
+to another
+
+These transitions have to occur within a distance between a point 'A' 
+and a point 'B' between two colors. It can also occur from a point 'B'
+to a point 'C' in the same element.
+
+These gradients can occur in a linear or radial way, and also with a 
+direction. By default it goes from top to bottom. To specify the direction
+the property has to be setted as:
+
+section {
+    background-image: linear-gradient(to left, yellow,orangered, purple);
+}
+
+As the previous example indicates it is provided the key word 
+'background-image' with the value 'linear-gradient' with the argument
+'to + direction' followed by the colors of the gradient
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Transforms ---------------------------
+-----------------------------------------------------------------
+
+File: /resources/22-transforms.css, /resources/22-transforms.html
+
+HTML elements can be transformed using CSS, ad it can occur on moving 
+elements stretching them, etc.
+
+This functionallity is activated using the 'transform' value and providing
+one of the functions that CSS provides. A few of these functions can be:
+
+transform: translateX(150px); : Displaces the element in the X axis being 
+the positive magnitude of the value the position corresponding to the right
+and the negative magnitude of the value the position corresponding to the 
+left. 
+transform: translateY(150px); : Displaces the element in the Y axis being 
+the positive magnitude of the value the position corresponding to the bottom
+and the negative magnitude of the value the position corresponding to the 
+top.
+transform: rotate(45deg); Rorates an element an ammount of degrees
+transform: rotate(0.125turn);  Rorates an element an ammount of turns
+transform: translate(350px,350px); : Displaces an element in the XY plane.
+transform: scaleX(1.4); Scales the X dimmention of an element
+transform: scaleY(1.4); Scales the Y dimmention of an element
+transform: scaleX(1.7); Scales the X and Y dimmention of an element
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Transitions ---------------------------
+-----------------------------------------------------------------
+
+File: /resources/23-transitions.css, /resources/23-transitions.html
+
+Transitions suppose a change between an elements property to and another 
+in a defined manner. 
+
+There are four states for an element and the change of an state between
+another is called transitions
+
+The 1st state is the basic one which is the state defined by default which 
+can be setted using a selector and providing a set of values to any property,
+and this will be the basic level.
+
+The 2nd level will be when hovering over a element. This is a pseudo class
+and whenever hovering over an element this pseudo class is activated.
+
+Every state can be altered from the 1st state to a second state (from basic
+to hover) using the all argument and then providing an ammount of time to 
+change between an state and another state
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+--------------------------- Animations --------------------------
+-----------------------------------------------------------------
+
+File: /resources/24-animations.css, /resources/24-animations.html
+
+The animation within CSS considers the way several states changes from one
+to another.
+
+Whenever a animation is meant to be executed, such animation has to be 
+defined and executed and such execution has to be related to a state.
+
+An animation is defined using the next structure:
+
+@keyframes ANIMATION-NAME {
+    from {
+        INITIAL SET OF PROPERTIES
+    }
+    to {
+        SECOND SET OF PROPERTIES
+    }
+}
+
+This structure consists the execution of an initial state and the transition
+to a secondary state. Such change has to occur in a lapse of time to be 
+considered as an animation. Thats why a state of an element has to consider
+two aspects: Which is the animation that has to be executed when an 
+state is triggered and how much time it will take for an animation to be 
+executed.
+
+#block1:hover {
+    animation: ANIMATION-NAME;
+    animation-duration: Xs;
+}
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+---------------------------- Filters ----------------------------
+-----------------------------------------------------------------
+
+File: /resources/25-filters.css, /resources/25-filters.html
+
+Filters are a kind of tratment that can be applied to an image to modify
+the look it has.
+
+Each of every filter available has a parameter or argument that has to 
+be setted to provide an effect upon the image.
+
+A few examples are shoew below:
+
+filter: blur(4px)
+filter: brightness(150%);
+filter: grayscale(50%);
+filter: contrast(50%);
+filter: opacity(0.8);
+filter: saturate(150%);
+filter: sepia(50%);
+
+Every example has their own examples displayed on the files related to this
+lesson
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+--------------------------- Clip Path ---------------------------
+-----------------------------------------------------------------
+
+File: /resources/26-clip_path.css, /resources/26-clip_path.html
+
+Clip path corresponds to a tool that allows to 'cut' an image following 
+a path. Such path can be determined by the vertices of a polygon, a calculation
+of the silhoute, among other.
+
+Theres a particular tool with pre-setted figures that provides the CSS
+code given an image
+Such tool can be found in the link below:
+https://bennettfeely.com/clippy/
+
+-----------------------------------------------------------------
+------------------------------ CSS3 -----------------------------
+------------------------ Extra Viewport -------------------------
+-----------------------------------------------------------------
+
+File: /resources/viewport.css, /resources/viewport.html
+
+Viewport is the visible part of a web page.
+
+It varies from device to device and from the dimentions of the window
+
+The size of an element can be associated to the viewport using the 'vh'
+unit

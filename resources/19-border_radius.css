@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#section1 {
+    height: 350px;
+    width: 350px;
+    background-color: rebeccapurple;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+#section2{
+    height: 350px;
+    width: 350px;
+    background-color: greenyellow;
+    margin: auto;
+    border-radius: 10px 20px 30px 40px;
+}
+
+#section3{
+    height: 350px;
+    width: 350px;
+    background-color: orangered;
+    margin: auto;
+    border-radius: 50%;
+}

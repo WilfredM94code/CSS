@@ -1,0 +1,9 @@
+#section1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#section2 {
+    border: 10px dotted blue;
+}

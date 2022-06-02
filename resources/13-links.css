@@ -1,0 +1,18 @@
+a {
+    text-decoration: dashed;
+    background-color: yellow;
+    padding: 15px;
+    margin: 40px;
+    box-shadow: 5px 5px 3px lawngreen;
+    color: orangered;
+    transition: all 0.2 ease-in-out;
+}
+
+a:hover {
+    text-decoration: dashed;
+    background-color:orangered;
+    padding: 15px;
+    margin: 40px;
+    box-shadow: 5px 5px 3px #333;
+    color: yellow;
+}

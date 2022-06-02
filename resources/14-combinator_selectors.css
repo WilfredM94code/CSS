@@ -1,0 +1,18 @@
+#article1 h1 {
+    font-size: 50px;
+    color: greenyellow;
+}
+
+article > p {
+    background-color: crimson;
+}
+
+p + a {
+    text-decoration: dotted;
+    color: palevioletred;
+    font-size: 44px;
+}
+
+#article1 ~ #article2 {
+    background-color: springgreen;
+}

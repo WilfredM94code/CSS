@@ -1,0 +1,35 @@
+#section1 {
+    padding: 25px;
+    height: 500px;
+    background-image: linear-gradient(yellow,orangered);
+}
+
+#section2 {
+    padding: 25px;
+    height: 500px;
+    background-image: linear-gradient(to right, yellow,orangered);
+}
+
+#section3 {
+    padding: 25px;
+    height: 500px;
+    background-image: linear-gradient(to left, yellow,orangered);
+}
+
+#section4{
+    padding: 25px;
+    height: 500px;
+    background-image: linear-gradient(to top, yellow,orangered, purple);
+}
+
+#section5{
+    padding: 25px;
+    height: 500px;
+    background-image: radial-gradient(circle, yellow,orangered, purple);
+}
+
+#section6{
+    padding: 25px;
+    height: 500px;
+    background-image: radial-gradient(ellipse, yellow,orangered, purple);
+}

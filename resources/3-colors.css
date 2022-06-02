@@ -1,0 +1,16 @@
+/* Hexadecimal color value */
+body {
+    background-color: #4b778d;
+}
+/* HSL color value */
+section {
+    background-color: hsl(180, 64%, 43%);
+}
+/* Color name */
+h1 {
+    color:coral;
+}
+/* RGB color value */
+p {
+    color: rgb(255, 45, 21);
+}

@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+#block {
+    height: 250px;
+    width: 250px;
+    background-color: peru;
+    transition: all 0.50s ease-in-out;
+}
+
+#block:hover {
+    height: 250px;
+    width: 250px;
+    transform: rotate(720deg);
+    background-color: red;
+    border-radius: 50%;
+}

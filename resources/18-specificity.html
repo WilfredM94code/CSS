@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="18-specificity.css">
+    <title>Specificity</title>
+</head>
+<body>
+    <section>
+        <h1 class='title1' id="title1">Specificity</h1>
+        <p class="para1" id="para1" style="background-color: blue;">Inline specificity can't be overrided (I'm the king)</p>
+    </section>
+    <section>
+        <h1 class='title2' id="title2">Specificity</h1>
+        <p class="para2" id="para2">ID specificity can only be overrided by inline specificity</p>
+    </section>
+    <section>
+        <h1 class='title3' id="title3">Specificity</h1>
+        <p class="para3" id="para3">Class specificity can be overrided by ID and inline specificity being in ascending order</p>
+    </section>
+    <section>
+        <h1 class='title4' id="title4">Specificity</h1>
+        <p class="para4" id="para4">Element specificity can be overrided by class, ID and inline specificity being in ascending order</p>
+    </section>
+</body>
+</html>

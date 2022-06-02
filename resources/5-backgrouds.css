@@ -1,0 +1,48 @@
+
+#section1 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: contain;
+}
+
+#section2 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#section3 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: cover;
+}
+
+#section4 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: cover;
+    background-position: top;
+}
+
+#section5 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: cover;
+    background-position: left;
+}
+
+#section6 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: cover;
+    background-position: right;
+}
+
+#section6 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+    background-size: cover;
+    background-position: center;
+}
+
+#section7 {
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/03/dark-souls-ii-analisis.jpg?fit=1200%2C700&quality=50&strip=all&ssl=1');
+}
+
+#section8 {
+    background-color: tomato;
+}

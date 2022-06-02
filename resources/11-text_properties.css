@@ -1,0 +1,35 @@
+#section1 {
+    color:blue;
+}
+
+#section2 {
+    text-transform: capitalize;
+}
+
+#section3 {
+    text-transform: uppercase;
+}
+
+#section4 {
+    text-transform: lowercase;
+}
+
+#section5 {
+    text-align: center;
+}
+
+#section6 {
+    letter-spacing: 5px;
+}
+
+#section7 {
+    word-spacing: 6px;
+}
+
+#section8 {
+    text-shadow: 6px 12px 0 black;
+}
+
+#section9 {
+    text-shadow: 6px 12px 4px black;
+}

@@ -1,0 +1,16 @@
+#section1 {
+    height: 600px;
+    width: 500px;
+    padding: 100px;
+    margin: 60px;
+    border : 50px solid green;
+    box-sizing: border-box;
+}
+
+#section2 {
+    height: 600px;
+    width: 500px;
+    padding: 100px;
+    margin: 60px;
+    border : 50px solid orangered;
+}

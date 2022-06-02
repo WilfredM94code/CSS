@@ -1,0 +1,12 @@
+#section1 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    border: 5px solid green;
+}
+
+#section2 {
+    padding: 60px 60px 60px 60px;
+    border: 5px solid orange;
+}

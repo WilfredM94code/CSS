@@ -1,0 +1,46 @@
+#block1 {
+    height: 100px;
+    width: 100px;
+    background-color: lawngreen;
+}
+
+#block1:hover {
+    animation: first-animation;
+    animation-duration: 5s;
+}
+
+@keyframes first-animation {
+    from {
+        background-color: lawngreen;
+    }
+    to {
+        background-color: blueviolet;
+    }
+}
+
+#block2 {
+    height: 100px;
+    width: 100px;
+    background-color: lawngreen;
+}
+
+#block2:hover {
+    animation: second-animation;
+    animation-duration: 0.5s;
+}
+
+@keyframes second-animation {
+    0% {
+        background-color: lawngreen;
+        transform: rotate(-45deg)
+
+    }
+    5% {
+        background-color: blueviolet;
+        transform: rotate(0deg)
+    }
+    100% {
+        background-color: orangered;
+        transform: rotate(-90deg)
+    }
+}

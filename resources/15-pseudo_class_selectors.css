@@ -1,0 +1,28 @@
+#article1 h1:first-child {
+    background-color: aqua;
+}
+
+#article1 p:nth-child(2) {
+    background-color: blueviolet;
+}
+
+#article2 p:last-child {
+    background-color: burlywood;
+}
+
+#article3 p:first-of-type {
+    background-color: red;
+}
+
+#article4 a:last-of-type {
+    background-color: blue;
+}
+
+#article5 p:nth-of-type(2) {
+    background-color: #ffaa00;
+}
+
+.link {
+    background-color: greenyellow;
+    color: purple
+}
